@@ -1,0 +1,10 @@
+{
+  "name": "demonewman",
+  "version": "1.0.0",
+  "scripts": {
+    "Api-tests": "TestNewMan.postman_collection.json"
+  },
+  "dependencies": {
+    "newman": "^5.1.2"
+  }
+}

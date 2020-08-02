@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "8c62c4a2-155d-4573-9788-8fef980a0264",
+		"name": "TestNewMan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET EMPLOYEE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://dummy.restapiexample.com/api/v1/employees",
+					"protocol": "http",
+					"host": [
+						"dummy",
+						"restapiexample",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employees"
+					]
+				},
+				"description": "http://dummy.restapiexample.com/api/v1/employees"
+			},
+			"response": []
+		},
+		{
+			"name": "GET SINGLE EMPLOYEE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://dummy.restapiexample.com/api/v1/employee/1",
+					"protocol": "http",
+					"host": [
+						"dummy",
+						"restapiexample",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE EMPLOYEE",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://dummy.restapiexample.com/api/v1/create",
+					"protocol": "http",
+					"host": [
+						"dummy",
+						"restapiexample",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"create"
+					]
+				},
+				"description": "http://dummy.restapiexample.com/api/v1/create"
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE EMPLOYEE",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://dummy.restapiexample.com/api/v1/update/27",
+					"protocol": "http",
+					"host": [
+						"dummy",
+						"restapiexample",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"update",
+						"27"
+					]
+				},
+				"description": "http://dummy.restapiexample.com/api/v1/update/27"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
